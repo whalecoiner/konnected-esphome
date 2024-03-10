@@ -10,7 +10,7 @@ button:
   - platform: template
     id: warning_tone
     name: "Play sound"
-    internal: true
+    internal: false
     on_press:
       then:
         - rtttl.play: $ominous_warning
